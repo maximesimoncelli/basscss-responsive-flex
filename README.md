@@ -1,6 +1,8 @@
 
 # basscss-responsive-flex
 
+![npm](https://img.shields.io/npm/v/basscss-responsive-flex)
+
 Optional module to extend [Basscss](http://basscss.com), intended to offer responsive breakpoints (as determined by basscss own breakpoints) for flex utilities.
 
 ## Npm installation

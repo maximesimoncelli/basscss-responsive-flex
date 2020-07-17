@@ -1,0 +1,3 @@
+@media (--breakpoint-sm) {
+    .flex-sm-column { flex-direction: column }
+}

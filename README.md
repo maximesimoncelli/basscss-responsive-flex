@@ -28,7 +28,7 @@ or in css :
 ## CDN Link
 
 ```
-<link href="https://unpkg.com/basscss-responsive-flex@0.0.1/css/responsive-flex.css" rel="stylesheet">
+<link href="https://unpkg.com/basscss-responsive-flex@0.0.2/css/responsive-flex.css" rel="stylesheet">
 ```
 
 ## Usage

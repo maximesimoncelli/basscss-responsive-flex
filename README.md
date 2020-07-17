@@ -3,7 +3,6 @@
 
 [![npm version](https://badge.fury.io/js/basscss-responsive-flex.svg)](https://badge.fury.io/js/basscss-responsive-flex)
 
-
 Optional module to extend [Basscss](http://basscss.com), intended to offer responsive breakpoints (as determined by basscss own breakpoints) for flex utilities.
 
 ## Npm installation
@@ -31,7 +30,7 @@ or in css :
 ## CDN Link
 
 ```
-<link href="https://unpkg.com/basscss-responsive-flex@0.0.2/css/responsive-flex.css" rel="stylesheet">
+<link href="https://unpkg.com/basscss-responsive-flex@0.0.3/css/responsive-flex.css" rel="stylesheet">
 ```
 
 ## Usage

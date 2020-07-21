@@ -1,5 +1,6 @@
 @media (--breakpoint-lg) {
     .flex-lg-column  { flex-direction: column }
+    .flex-lg-row  { flex-direction: row }
     .flex-lg-wrap    { flex-wrap: wrap }
 
     .items-lg-start    { align-items: flex-start }

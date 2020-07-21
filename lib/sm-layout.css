@@ -1,5 +1,6 @@
 @media (--breakpoint-sm) {
     .flex-sm-column  { flex-direction: column }
+    .flex-sm-row  { flex-direction: row }
     .flex-sm-wrap    { flex-wrap: wrap }
 
     .items-sm-start    { align-items: flex-start }

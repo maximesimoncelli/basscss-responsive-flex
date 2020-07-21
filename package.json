@@ -1,13 +1,13 @@
 {
   "name": "basscss-responsive-flex",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Responsive flex utilities module for Basscss",
   "scripts": {
-    "prepublish": "mkdir -p css && postcss index.css -u postcss-import -u postcss-custom-media -u postcss-custom-properties -u autoprefixer -o css/responsive-flex.css"
+    "prepublish": "mkdir -p css && postcss index.css -u postcss-import -u postcss-custom-media -u postcss-custom-properties -u autoprefixer -o css/responsive-flex.css && cat css/responsive-flex.css | postcss -u cssnano -o css/responsive-flex.min.css"
   },
   "devDependencies": {
     "autoprefixer": "^6.3.1",
-    "postcss-cli": "^2.5.0",
+    "postcss-cli": "^2.6.0",
     "postcss-custom-media": "^5.0.1",
     "postcss-custom-properties": "^5.0.0",
     "postcss-import": "^8.0.2"
@@ -29,5 +29,8 @@
   "bugs": {
     "url": "https://github.com/maximesimoncelli/basscss-responsive-flex/issues"
   },
-  "homepage": "https://github.com/maximesimoncelli/basscss-responsive-flex"
+  "homepage": "https://github.com/maximesimoncelli/basscss-responsive-flex",
+  "dependencies": {
+    "cssnano": "^4.1.10"
+  }
 }

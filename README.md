@@ -16,6 +16,9 @@ To import it :
 ```js
 import '~basscss/css/index.css'
 import '~basscss-responsive-flex/css/responsive-flex.css'
+// or
+import '~basscss-responsive-flex/css/responsive-flex.min.css'
+
 ```
 
 or in css :
@@ -23,6 +26,9 @@ or in css :
 ```css
 @import '~basscss/css/index.css';
 @import '~basscss-responsive-flex/css/responsive-flex.css'
+// or
+@import '~basscss-responsive-flex/css/responsive-flex.min.css'
+
 ```
 
 (assuming you're using some sort of webpack aliasing, else import it with the relative node_modules path.)

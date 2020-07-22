@@ -1,6 +1,6 @@
 {
   "name": "basscss-responsive-flex",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Responsive flex utilities module for Basscss",
   "scripts": {
     "prepublish": "mkdir -p css && postcss index.css -u postcss-import -u postcss-custom-media -u postcss-custom-properties -u autoprefixer -o css/responsive-flex.css && cat css/responsive-flex.css | postcss -u cssnano -o css/responsive-flex.min.css"

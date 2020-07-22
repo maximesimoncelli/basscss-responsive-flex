@@ -30,7 +30,4 @@
     "url": "https://github.com/maximesimoncelli/basscss-responsive-flex/issues"
   },
   "homepage": "https://github.com/maximesimoncelli/basscss-responsive-flex",
-  "dependencies": {
-    "cssnano": "^4.1.10"
-  }
 }
